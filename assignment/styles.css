@@ -1,5 +1,5 @@
 body {
-    /* adapted from https://www.w3schools.com/css/css_background_image.asp */
+    /* adapted from https://www.w3schools.com/css/ */
     background-image: url("backgrd.jpg");
     background-size:cover;
     background-position: center;
@@ -35,10 +35,10 @@ div.info img {
     position: relative;
     top: 17px;
     float:right;
+    display: inline;
 }
 
-div.ref{
-    /* adapted from https://www.w3schools.com/css/css_positioning.asp */
+div.ref {
     position:fixed;
     bottom:0;
     left:0;
